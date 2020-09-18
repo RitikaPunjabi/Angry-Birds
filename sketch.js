@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   background(0);  
- 
+ rectMode(CENTER);
   var rect=createSprite(200, 200, 50, 50);
 
   drawSprites();
