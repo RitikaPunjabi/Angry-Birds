@@ -3,7 +3,7 @@ const World=Matter.World;
 const Bodies=Matter.Bodies;
 
 function setup() {
-  createCanvas(400,400);
+  createCanvas(1200,400);
   engine=ENGINE.create();
   world=engine.world;
   object=Bodies.rectangle(200,100,50,50);
